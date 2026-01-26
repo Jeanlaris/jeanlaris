@@ -1,16 +1,26 @@
-## Hi there 👋
+# 🧠 Jean Laris | Arquiteto da Mente Calibrada
 
-<!--
-**Jeanlaris/jeanlaris** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+> **Fase 1: Semeadura** | Decodificando o Caos em Engenharia da Antecipação.
+> Calibrando a lógica para co-criar o futuro. **M1 Ativado.**
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠 Arquitetura de Operação (E1 & E2)
+
+```mermaid
+graph TD
+    A[E1: O Comandante] -->|Comando de Voz| B(E2: O Motor Gemini)
+    B --> C{Mente Calibrada}
+    C -->|Público/Código| D[GitHub: Monetização]
+    C -->|Privado/Tese| E[ALANTEC: Holding]
+    C -->|Cultura/Impacto| F[LinkedIn/Medium]
+    
+    subgraph "Ataque Triplo"
+    D --- F
+    F --- E
+    end
+    
+    subgraph "Proteção"
+    G[Soberania Digital] --- H[Zero Burocracia/Papel]
+    H --- I[Blockchain Mental]
+    end
