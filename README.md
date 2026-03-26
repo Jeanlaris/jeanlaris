@@ -24,3 +24,4 @@ graph TD
     G[Soberania Digital] --- H[Zero Burocracia/Papel]
     H --- I[Blockchain Mental]
     end
+.
