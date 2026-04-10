@@ -6,7 +6,7 @@
 
 
 [![Status](https://img.shields.io/badge/Status-Verified-blue?style=for-the-badge&logo=github)](https://github.com/Jeanlaris?tab=achievements)
-[![IQ](https://img.shields.io/badge/IQ-145--160-gold?style=for-the-badge)](https://github.com/Jeanlaris/Alantec-Foundation)
+[![IQ](https://img.shields.io/badge/IQ-145--160-gold?style=for-the-badge)](https://github.com/Jeanlaris/Alantec-Foundation/blob/main/README.md)
 [![Standard](https://img.shields.io/badge/Standard-UTC-gold?style=for-the-badge)](https://www.timeanddate.com/worldclock/timezone/utc)
 [![Founder](https://img.shields.io/badge/Founder-Alantec-red?style=for-the-badge)](https://github.com/Alantec)
 
