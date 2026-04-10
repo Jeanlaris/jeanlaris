@@ -1,31 +1,41 @@
-# 🧠 Jean Laris | Systems Architect
+# 👨‍💻 Jean Laris | Systems Architect
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Focus-Zenith%20Flow-009485?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI">
-  <img src="https://img.shields.io/badge/Logic-APEX--0-blue?style=for-the-badge" alt="Logic">
-  <img src="https://img.shields.io/badge/Standard-UTC-gold?style=for-the-badge" alt="UTC">
-</p>
+> "Onde o Caos encontra a Ordem através da Engenharia da Antecipação."
+
+---
+
+### 🛡️ Authority Status (S1)
+![Verified](https://img.shields.io/badge/Status-Verified-blue?style=for-the-badge&logo=github)
+![IQ](https://img.shields.io/badge/IQ-145--160-gold?style=for-the-badge)
+![Standard](https://img.shields.io/badge/Standard-UTC-gold?style=for-the-badge)
+![Organization](https://img.shields.io/badge/Founder-Alantec-red?style=for-the-badge)
 
 ---
 
 ### 🌐 Conexões de Soberania
-* **Holding:** [Alantec Foundation](https://github.com/Alantec)
-* **Profissional:** [LinkedIn](https://www.linkedin.com/in/jeanlarisoficial)
+* **Holding Digital:** [Alantec Foundation](https://github.com/Alantec)
+* **Ecossistema:** [LinkedIn](https://www.linkedin.com/in/jeanlarisoficial)
 * **Arquitetura:** [Repositório Central](https://github.com/Jeanlaris/Alantec-Foundation)
 
 ---
 
-### 🏗️ Stack de Engenharia
+### 🏗️ G1 Operations (Padrão FastAPI)
+
 ```python
 from fastapi import FastAPI
-from mente_calibrada import EngenhariaAntecipacao
+from pydantic import BaseModel
 
-app = FastAPI(title="Jean Laris Profile")
+class Sovereignty(BaseModel):
+    operator: str = "Jean Laris (E1)"
+    logic: str = "APEX-0 Protocol"
+    status: str = "Zenith Flow 4K"
+    phase: int = 2
 
-@app.get("/")
-async def get_sovereignty():
-    return {
-        "operator": "E1 - Jean Laris",
-        "system": "Alantec",
-        "status": "4K High Definition"
-    }
+app = FastAPI(title="Alantec Core Engine")
+
+@app.get("/heartbeat", response_model=Sovereignty)
+async def check_system():
+    """
+    Aciona o efeito borboleta: Mínimo esforço, Máximo impacto.
+    """
+    return Sovereignty()
