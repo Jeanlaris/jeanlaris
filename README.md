@@ -52,3 +52,5 @@ async def check_system():
     Aciona o efeito borboleta: Mínimo esforço, Máximo impacto.
     """
     return Sovereignty()
+
+@app.get("/health")
