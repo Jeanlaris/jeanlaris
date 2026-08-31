@@ -1,40 +1,3 @@
-# 👨‍💻 Jean Laris | Systems Architect
-
-> "Onde o Caos encontra a Ordem através da Engenharia da Antecipação."
-
----
-
-
-# Arquitetura Alantec - Core do Orquestrador APEX-0
-from fastapi import FastAPI, Depends
-from typing import Dict
-
-app = FastAPI(title="Alantec - Arquitetos do Futuro", version="1.0.0")
-
-# Engenharia Reversa: O ponto de entrada foca na Intencionalidade (E1)
-@app.get("/flow/apex-0")
-async def zenit_do_flow():
-    """
-    Efeito Borboleta: Pequenos inputs de lógica gerando 
-    automação em escala global na holding.
-    """
-    return {
-        "status": "Verified",
-        "nivel": "Soberania Cognitiva",
-        "protocolo": "APEX-0",
-        "mensagem": "Sinta o Zenit do Flow em 4K"
-    }
-
-### 🌐 Conexões de Soberania
-* **Holding Digital:** [Alantec Foundation](https://github.com/Alantec)
-* **Ecossistema:** [LinkedIn](https://www.linkedin.com/in/jeanlarisoficial)
-* **Arquitetura:** [Repositório Central](https://github.com/Jeanlaris/Alantec-Foundation)
-
----
-
-### 🏗️ G1 Operations (Padrão FastAPI)
-
-```python
 from fastapi import FastAPI
 from pydantic import BaseModel
 
@@ -54,8 +17,5 @@ async def check_system():
     return Sovereignty()
 
 @app.get("/health")
-
-# Weekend Protocol: Executing changes under the Zenith Flow 4K standard.
-   """
-![GitHub Stats](output/stats.svg)
-   
+def health_check():
+    return {"status": "operational"}
