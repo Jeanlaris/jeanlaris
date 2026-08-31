@@ -56,3 +56,6 @@ async def check_system():
 @app.get("/health")
 
 # Weekend Protocol: Executing changes under the Zenith Flow 4K standard.
+   """
+![GitHub Stats](output/stats.svg)
+   
