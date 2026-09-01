@@ -1,21 +1,31 @@
-from fastapi import FastAPI
-from pydantic import BaseModel
+<div align="center">
 
-class Sovereignty(BaseModel):
-    operator: str = "Jean Laris (E1)"
-    logic: str = "APEX-0 Protocol"
-    status: str = "Zenith Flow 4K"
-    phase: int = 2
+# Jean Laris
+### 🧠 Mente Calibrada | Código Fonte da Soberania Cognitiva
 
-app = FastAPI(title="Alantec Core Engine")
+> "Transform chaos into power. Squeeze the Zenit of Flow in 4K. Be the architect."
 
-@app.get("/heartbeat", response_model=Sovereignty)
-async def check_system():
-    """
-    Aciona o efeito borboleta: Mínimo esforço, Máximo impacto.
-    """
-    return Sovereignty()
+</div>
 
-@app.get("/health")
-def health_check():
-    return {"status": "operational"}
+---
+
+## ⚡ Overview & Performance
+
+[![](https://raw.githubusercontent.com/jeanlaris/jeanlaris/main/generated/overview.svg#gh-dark-mode-only)](#)
+[![](https://raw.githubusercontent.com/jeanlaris/jeanlaris/main/generated/languages.svg#gh-dark-mode-only)](#)
+
+---
+
+## 🛠️ Core Architecture & Technologies
+
+* **Backend Engineering:** Advanced asynchronous architectures, Python core, and scalable system patterns.
+* **Cognitive Infrastructure:** Automated workflows, real-time telemetry, and high-definition system insights.
+* **Execution Standard:** Zero friction, high-impact delivery, and absolute precision.
+
+---
+
+<div align="center">
+
+### Alantec - Arquitetos do Futuro
+
+</div>
