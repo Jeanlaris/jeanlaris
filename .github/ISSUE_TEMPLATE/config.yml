@@ -1,0 +1,12 @@
+# Configuration Template Guide (`config.yml`)
+
+## 🛡️ Architectural Purpose
+The `config.yml` file controls the global behavior of the issue templates in the repository, enabling blank issues and defining external contact links for architectural support.
+
+## 📋 File Content Reference
+```yaml
+blank_issues_enabled: true
+contact_links:
+  - name: Alantec Support
+    url: [https://github.com/alantec](https://github.com/alantec)
+    about: Please reach out for architectural support and guidance.
