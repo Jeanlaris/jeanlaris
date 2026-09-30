@@ -1,0 +1,12 @@
+name: Blank Issue
+description: Create a blank issue for custom architectural topics.
+title: "[Custom]: "
+labels: ["custom"]
+body:
+  - type: textarea
+    attributes:
+      label: Issue Description
+      description: Provide details regarding your custom architectural topic.
+      placeholder: Enter your custom details here...
+    validations:
+      required: true
