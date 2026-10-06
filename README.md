@@ -2,6 +2,8 @@
 
 > Sovereign Automation | Strategic Architecture | Human-in-the-Loop Engineering
 
+<iframe src="https://github.com/sponsors/Jeanlaris/card" title="Sponsor Jeanlaris" height="225" width="600" style="border: 0;"></iframe>
+
 Transforming chaos into power. Operating at 4K high definition; we engineer the future.
 
 ---
