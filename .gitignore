@@ -1,13 +1,63 @@
+# ==========================================
+# ALANTEC SOVEREIGN .GITIGNORE — 2026/2027
+# ==========================================
+
 # IDEs and Editors
 .vscode/
 .idea/
 *.swp
 *.swo
+*.swn
+.project
+.settings/
 
-# OS Metadata
+# OS Metadata & Thumbnails
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+Desktop.ini
 
-# Temp and Cache
+# Python / Backend Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments & Termux / WSL
+venv/
+ENV/
+env/
+.env
+.venv
+ENV/
+
+# Temp, Logs & Cache
 *.log
+*.sqlite
+*.db
 .cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
