@@ -31,4 +31,4 @@ Active maintenance and security updates apply solely to the latest commit on the
 All profile updates and documentation commits must adhere to the high-performance structural standards of our organization.
 
 ---
-Alantec - Arquitetos do Futuro
+Alantec - Architects of the Future.
